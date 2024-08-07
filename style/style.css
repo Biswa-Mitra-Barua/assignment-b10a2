@@ -31,7 +31,7 @@
 }
 
 h1 {
-    font-size: 2.2rem;    
+    font-size: 2.4rem;    
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: italic;
     font-weight: bolder;
@@ -97,4 +97,48 @@ button {
 }
 .btn-border{
     border: 1px solid rgba(255, 255, 255, 0.479);
+}
+.circle-icon{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: rgb(255, 75, 20);
+    margin-right: 8px; 
+    margin-top: 7px;
+}
+.nav-card-1{
+    border: 1px solid rgba(255, 255, 255, 0.103);
+    background-color: rgba(48, 48, 48, 0.54);
+    height: 70px;
+    width: 170px;
+    border-radius: 10px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    margin-left: -90px;
+    top: 610px;
+    backdrop-filter: blur(12px);
+}
+.nav-body-image{
+    position: relative;
+}
+.card-font{
+    font-size: 12px;
+    margin-top: 5px;
+    color: rgba(255, 255, 255, 0.596);
+}
+.nav-card-2{
+    border: 1px solid rgba(255, 255, 255, 0.103);
+    background-color: rgba(48, 48, 48, 0.54);
+    height: 100px;
+    width: 160px;
+    border-radius: 10px;
+    position: absolute;
+    text-align: left;
+    margin-left: 230px;
+    top: 300px;
+    padding: 15px;
+    backdrop-filter: blur(12px);
+    font-size: 1.5rem;
+    font-weight: bolder;
 }
