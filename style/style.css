@@ -22,7 +22,6 @@
 
 /* nav starts here */
 .welcome-container{
-    /* background-color: rgba(0, 0, 0, 0.863); */
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.897),rgb(20, 20, 20) 100%);
     margin: 0 auto;
 }
@@ -97,6 +96,7 @@ button {
 .btn-border{
     border: 1px solid rgba(255, 255, 255, 0.479);
 }
+
 .circle-icon{
     height: 35px;
     width: 35px;
@@ -105,6 +105,7 @@ button {
     margin-right: 8px; 
     margin-top: 7px;
 }
+
 .nav-card-1{
     border: 1px solid rgba(255, 255, 255, 0.103);
     background-color: rgba(48, 48, 48, 0.54);
@@ -119,6 +120,7 @@ button {
     backdrop-filter: blur(12px);
     letter-spacing: 1px;
 }
+
 .nav-body-image{
     position: relative;
 }
@@ -127,6 +129,7 @@ button {
     margin-top: 5px;
     color: rgba(255, 255, 255, 0.596);
 }
+
 .nav-card-2{
     border: 1px solid rgba(255, 255, 255, 0.103);
     background-color: rgba(48, 48, 48, 0.54);
@@ -143,6 +146,7 @@ button {
     font-weight: bolder;
     letter-spacing: 1px;
 }
+
 .nav-hamburger{
     color: white;
     display: none;
@@ -152,4 +156,49 @@ button {
     font-size: 3.3rem;                                     
     font-weight:normal;
     letter-spacing: 0px;
+}
+/* change your habits starts here */
+.change-habits{
+    background-color: black;
+    margin: 0 auto;
+    padding: 3.5rem;
+}
+.habit-text{
+    margin-bottom: 1rem;
+}
+.habit-text h1{
+    color: white;
+    text-align: center;
+}
+.habit-text p{
+    color: rgba(255, 255, 255, 0.418);
+    text-align: center;
+}
+.change-habits-contents{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-left: 8rem;
+    gap: 4.5rem;
+}
+.contents-para{
+    color: rgba(255, 255, 255, 0.473);
+    text-align: center;
+    font-size: 0.85rem;
+}
+.habit-image img{
+    border-radius: 50%;
+    margin-bottom: 0.9rem;
+}
+.habit-image img{
+    border: 3px solid rgba(255, 255, 255, 0.158);
+    border-radius: 50%;
+    margin-bottom: 0.8rem;
+    width: 100%;
+}
+.change-habits-contents>div>h4{
+    margin-bottom: 0.5rem;
 }
