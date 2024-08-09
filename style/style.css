@@ -14,6 +14,7 @@
 .button-color{
     background-color: coral;
     border-radius: 20px;
+    padding: 10px;
 }
 
 .company-name-color{
@@ -89,9 +90,9 @@ button {
 .btn-sec{
     border-radius: 28px;
     font-size: 0.9rem;
-    padding: 10px 50px;
+    padding: 10px 60px;
     margin: 0;
-    margin-right: 10px;
+    margin-right: 26px;
 }
 .btn-border{
     border: 1px solid rgba(255, 255, 255, 0.479);
@@ -202,3 +203,59 @@ button {
 .change-habits-contents>div>h4{
     margin-bottom: 0.5rem;
 }
+
+/* run extra mile starts here */
+.run-extra{
+    background-color: black;
+    margin: 0 auto;
+    padding: 3.5rem;
+    color: white;
+}
+.run-extra-body{
+    /* border: 2px solid red; */
+    background-color: rgba(48, 48, 48, 0.644);
+    width: 80%;
+    height: 22rem;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 7.5rem;
+    /* overflow: hidden; */
+    /* display:inline-flex; */
+    border-radius: 15px;
+    padding: 10px;
+}
+.run-extra-body div img{
+    /* width: 350px;
+    height: 300px;
+    border-radius: 18px;
+    /* transform:scale(3.5); */
+    /* transform-origin: 0% 20%; */
+    /* transform: translate(0px, 40px); */
+    /* object-fit: cover;
+    object-position: 100% 100%;
+    padding: 10px;
+    margin-bottom: 70px; */ 
+    width: 380px;
+    height: 300px;
+    object-fit: none;
+    object-position: -760px -200px;
+    border-radius: 18px;
+    padding: 10px;
+    /* border: 2px solid red; */
+
+}
+.run-body-text{
+    text-align: left;
+    margin-left: 35px;
+    /* margin-right: 150px; */
+}
+.run-body-text button{
+    display: flex;
+    margin-right: 150px;
+    /* float: left; */
+}
+
+ .run-extra-para{
+    color: rgba(255, 255, 255, 0.473);
+ }
