@@ -23,10 +23,33 @@
         text-align: left;
         margin-left: 190px;
         top: 620px;
-        /* padding: 15px; */
     }
     .nav-btn{
         display: flex;
+        flex-direction: row;
+    }
+    /* .nav-btn btn-sec{
+        border-radius: 28px;
+        font-size: 0.9rem;
+        padding: 3px 20px;
+        margin: 0;
+        margin-right: 6px;
+    } */
+    .nav-btn button{
+        border: none;
+        padding: 15px;
+        border-radius: 20px;
+        margin-right: 5px;
+        margin-left: 5px;
+        font-size: 16px;
+        text-align: center;
+        padding: 20px 20px;
+    }
+    /* .nav-btn btn-border{
+        border: 1px solid rgba(255, 255, 255, 0.479);
+    } */
+    .nav-body-text br{
+        display: none;
     }
     .btn-sec{
         border-radius: 28px;
@@ -41,5 +64,39 @@
         padding: 2rem;
         margin-left: 2rem;
         gap: 3rem;
+    }
+    .run-extra{
+        padding: 0rem;
+    }
+    .run-body-text br{
+        display: none;
+    }
+    .run-extra-body{
+        width: 360px;
+        height: 630px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 2.5rem;
+        padding: 10px;
+        position: absolute;
+    }
+    .run-extra-body div img{
+        width: 330px;
+        height: 300px;
+        padding: 10px;
+    }
+    .btn-sec{
+        padding: 10px 130px;
+        margin-right: 0px;
+    }
+    .run-body-text{
+        text-align: left;
+        margin-left: 10px;
+    }
+    .run-body-text button{
+        margin-right: 5px;
+        margin-left: 5px;
+        font-size: 12px;
+        text-align: center;
     }
 }
