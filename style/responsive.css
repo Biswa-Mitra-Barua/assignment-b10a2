@@ -31,7 +31,7 @@
         margin-left: 5px;
         font-size: 16px;
         text-align: center;
-        padding: 20px 20px;
+        padding: 16px 20px;
     }
     .nav-body-text br{
         display: none;
@@ -61,19 +61,30 @@
     
     .run-body-text h1{
         font-size: 2.2rem;
+        margin-top: 18px;
     }
     .run-body-text>p br{
         display: none;
     }
+    .run-body-text button{
+        padding: 10px 10px;
+        border-radius: 28px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
     .run-extra-btn{
         border-radius: 30px;
         font-size: 1rem;
-        padding: 10px 30px;
+        padding: 13px 100px;
     }
     .run-extra-body div img{
-        width: 340px;
-        height: 500px;
+        width: 960px;
+        height: 680px;
         padding: 20px 20px;
+        object-position: -370px -40px;
+        zoom: 30%;
+        border-radius: 50px;
+        margin-top: 30px;
     }
 
 
