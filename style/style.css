@@ -1,9 +1,11 @@
 @import url('https://fonts.cdnfonts.com/css/miama');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Inter", sans-serif;
 }
 
 /* common styles */
@@ -11,14 +13,25 @@
     display: flex;
 }
 
+button {
+    border: none;
+    padding: 10px;
+    border-radius: 28px;
+    margin-right: 15px;
+    margin-left: 16px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+}
 .button-color{
     background-color: coral;
-    border-radius: 20px;
-    padding: 10px;
+    border-radius: 25px;
 }
 
 .company-name-color{
-    color: rgb(255, 75, 20);
+    color: rgba(255, 75, 20, 0.952);
 }
 
 /* nav starts here */
@@ -30,35 +43,20 @@
     justify-content: space-between;
     width: 80%;
     margin: 0 auto;
-    padding: 50px;
+    padding: 48px;
 }
 
 h1 {
-    font-size: 2.4rem;    
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-style: italic;
+    font-size: 2.8rem;    
     font-weight: bolder;
 }
 
 .nav-content {
     display: flex;
     border: 1px solid rgba(114, 114, 113, 0.438);
-    border-radius: 25px;
+    border-radius: 28px;
     padding: 3px;
     
-}
-
-button {
-    border: none;
-    padding: 15px;
-    border-radius: 15px;
-    margin-right: 15px;
-    margin-left: 15px;
-    font-size: 18px;
-    text-decoration: none;
-    background-color: transparent;
-    color: white;
-    text-align: center;
 }
 
 .nav-body-container{
@@ -73,25 +71,32 @@ button {
 }
 .nav-body-text{
     margin-top: 40px;
+    line-height: 0.9;
 }
 
 .nav-body-text>h1{
-    font-size: 3.3rem;
-    line-height: 1.2;
+    font-size: 3.5rem;
+    /* line-height: 1.2; */
+}
+.nav-body-text>h1>.shape-font{
+    font-family: 'Miama', sans-serif;  
+    font-size: 6.6rem;                                     
+    font-weight:lighter;
+    letter-spacing: -2px;
 }
 .nav-body-text>p{
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     color: rgba(255, 255, 255, 0.534);
-    margin-top: 15px;
-    margin-bottom: 20px;
+    margin-top: 26px;
+    margin-bottom: 30px;
 }
 
-.btn-sec{
-    border-radius: 28px;
+.nav-btn-sec{
+    border-radius: 30px;
     font-size: 0.9rem;
-    padding: 14px 60px;
+    padding: 14px 50px;
     margin: 0;
-    margin-right: 26px;
+    margin-right: 20px;
 }
 .btn-border{
     border: 1px solid rgba(255, 255, 255, 0.479);
@@ -134,13 +139,13 @@ button {
     border: 1px solid rgba(255, 255, 255, 0.103);
     background-color: rgba(48, 48, 48, 0.54);
     height: 90px;
-    width: 166px;
+    width: 170px;
     border-radius: 10px;
     position: absolute;
     text-align: left;
     margin-left: 230px;
     top: 300px;
-    padding: 15px;
+    padding: 10px;
     backdrop-filter: blur(14px);
     font-size: 1.5rem;
     font-weight: bolder;
@@ -151,17 +156,12 @@ button {
     color: white;
     display: none;
 }
-.shape-font{
-    font-family: 'Miama', sans-serif;  
-    font-size: 3.3rem;                                     
-    font-weight:normal;
-    letter-spacing: 0px;
-}
+
 /* change your habits starts here */
 .change-habits{
     background-color: black;
     margin: 0 auto;
-    padding: 3.5rem;
+    padding: 1.5rem;
 }
 .habit-text{
     margin-bottom: 1rem;
@@ -204,30 +204,32 @@ button {
 }
 
 /* run extra mile starts here */
-.run-extra{
+/* .run-extra{
     background-color: black;
     margin: 0 auto;
     padding: 3.5rem;
     color: white;
-}
+} */
 .run-extra-body{
     background-color: rgba(48, 48, 48, 0.644);
+    color: white;
     width: 80%;
-    height: 22rem;
+    height: auto;
     text-align: center;
     justify-content: space-between;
     align-items: center;
-    margin-left: 7.5rem;
+    margin-left: 130px;
+    margin-top: 4rem;
     border-radius: 15px;
     padding: 16px;
     position: static;
 }
 .run-extra-body div img{
-    width: 380px;
+    width: 360px;
     height: 300px;
     object-fit: none;
     object-position: -760px -200px;
-    border-radius: 18px;
+    border-radius: 22px;
     padding: 10px;
 }
 .run-body-text{
@@ -241,4 +243,9 @@ button {
 
  .run-extra-para{
     color: rgba(255, 255, 255, 0.473);
+ }
+ .run-extra-btn{
+    border-radius: 30px;
+    font-size: 1.1rem;
+    padding: 16px 75px;
  }
