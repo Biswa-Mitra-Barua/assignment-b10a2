@@ -84,10 +84,11 @@ h1 {
     letter-spacing: -2px;
 }
 .nav-body-text>p{
-    font-size: 0.9rem;
-    color: rgba(255, 255, 255, 0.534);
+    font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.507);
     margin-top: 26px;
     margin-bottom: 30px;
+    line-height:20px;
 }
 
 .nav-btn-sec{
@@ -173,6 +174,8 @@ h1 {
 .habit-text p{
     color: rgba(255, 255, 255, 0.418);
     text-align: center;
+    font-size: 0.95rem;
+    margin-bottom: 40px;
 }
 .change-habits-contents{
     width: 80%;

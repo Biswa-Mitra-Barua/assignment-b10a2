@@ -136,5 +136,22 @@
         position: relative;
         bottom: 118px;
     }
+    .footer-sec{
+        margin: 0 auto;
+        padding: 40px 40px;
+        text-align: center;
+    }
+    .footer-contents{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-contents>.footer-name>p br{
+        display: none;
+    }
+    hr{
+        width: 100%;
+        margin-left: 10px;
+    }
 
 }
