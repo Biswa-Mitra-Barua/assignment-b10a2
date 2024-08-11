@@ -164,6 +164,7 @@ h1 {
 }
 .habit-text{
     margin-bottom: 1rem;
+    margin-top: 2rem;
 }
 .habit-text h1{
     color: white;
@@ -398,17 +399,46 @@ h1 {
 .footer-sec{
     background-color: rgb(28, 28, 28);
     margin: 0 auto;
-    padding: 40px 80px;
- }
+    padding: 40px 70px;
+    text-align: center;
+}
 
- .footer-contents{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    justify-content: space-evenly;
- }
+.footer-contents{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px 0px;
+}
 
- .footer-contents>div>p{
-    font-size: 0.8rem;
+.footer-text-alignment{
+    text-align: left;
+}
+.footer-contents>div>h2{
+    color: white;
+}
+
+.footer-contents>div>p{
+    font-size: 1rem;
     color: rgba(255, 255, 255, 0.301);
-    margin-top: 10px;
- }
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-contents>.footer-name>p{
+    font-size: 0.88rem;
+}
+
+hr{
+    position: relative;
+    height: 1px;
+    width: 86%;
+    margin-left: 87px;
+    border: none;
+    background: rgba(255, 255, 255, 0.301);
+}
+
+.rights-copy{
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.301);
+    margin-top: 20px;
+}
