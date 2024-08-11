@@ -112,4 +112,29 @@
         margin-top: 7px;
     }
 
+    .our-team-contents{
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 30px;
+        position: relative;
+    }
+
+    .our-team-img{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .our-team-img img{
+        width: 100%;
+        height: 95%;
+        padding: 5px;
+    }
+
+    .trainer-1, .trainer-2, .trainer-3, .trainer-4, .trainer-5, .trainer-6{
+        position: static;
+    }
+    .bottom-left {
+        position: relative;
+        bottom: 118px;
+    }
+
 }

@@ -330,16 +330,18 @@ h1 {
     background-color: coral;
     border-radius: 25px;
  }
+ /* meet our team */
 
  .meet-our-team{
     background-color: black;
     margin: 0 auto;
     color: white;
+    padding: 50px 20px;
  }
  .our-team-text{
     text-align: center;
     margin-bottom: 20px;
-    padding-top: 70px;
+    padding-top: 60px;
     padding-bottom: 40px;
     
  }
@@ -358,6 +360,7 @@ h1 {
     margin-top: 1.2rem;
     border-radius: 10px;
     padding: 10px;
+    margin-bottom: 50px;
     position: static;
 }
 
@@ -367,8 +370,8 @@ h1 {
 }
 
 .our-team-img img{
-    width: 350px;
-    height: 298px;
+    width: 340px;
+    height: 280px;
     border-radius: 20px;
     padding: 8px;
 }
@@ -390,3 +393,22 @@ h1 {
     font-size: 14px;
     color: rgba(255, 255, 255, 0.473);
 }
+/* footer */
+
+.footer-sec{
+    background-color: rgb(28, 28, 28);
+    margin: 0 auto;
+    padding: 40px 80px;
+ }
+
+ .footer-contents{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-evenly;
+ }
+
+ .footer-contents>div>p{
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.301);
+    margin-top: 10px;
+ }
