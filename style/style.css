@@ -440,7 +440,7 @@ h1 {
     position: absolute;
     width: 220px;
     height: 220px;
-    /* -webkit-backface-visibility: hidden; */
+    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
 }
   
