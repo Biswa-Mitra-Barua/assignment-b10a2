@@ -156,4 +156,27 @@
         margin-left: 10px;
     }
 
+    .join-us{
+        margin: 0 auto;
+        padding: 20px 40px;
+        text-align: center;
+    }
+
+    .join-us>p{
+        font-size: 0.75rem;
+        margin-top: 11px;
+        margin-bottom: 60px;
+    } 
+
+    .join-us>p br{
+        display: none;
+    }
+
+    .membership-package{
+        flex-direction: column;
+        margin-bottom: 60px;
+        margin-top: 60px;
+        gap: 40px;
+    }
+
 }

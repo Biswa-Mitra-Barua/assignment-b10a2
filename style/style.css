@@ -400,6 +400,86 @@ h1 {
     font-size: 14px;
     color: rgba(255, 255, 255, 0.473);
 }
+
+/* join us & membership package */
+
+.join-us{
+    background-color: black;
+    margin: 0 auto;
+    color: white;
+    padding: 30px 30px;
+    text-align: center;
+}
+.join-us>p{
+    color: rgba(255, 255, 255, 0.473);
+    font-size: 0.96rem;
+    margin-top: 11px;
+    margin-bottom: 60px;
+} 
+
+.membership-package{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+.flip-card-inner{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    margin-left: 50px;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(-180deg);
+}
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    /* -webkit-backface-visibility: hidden; */
+    backface-visibility: hidden;
+}
+  
+.flip-card-front {
+    border: 5px solid rgba(179, 43, 43, 0.856);
+    width: 220px;
+    height: 220px;
+    background-color:rgba(219, 109, 109, 0.123);
+    padding: 40px;
+    border-radius: 18px;
+}
+  
+.flip-card-back {
+    border: 10px solid rgba(216, 112, 147, 0.274);
+    width: 220px;
+    height: 220px;
+    background-color: rgba(238, 255, 0, 0.301);
+    border-radius: 18px;
+    padding: 15px;
+    transform: rotateY(180deg);
+}
+
+.flip-card-front h2{
+    font-size: 18px;
+    margin-top: 30px;
+    word-spacing: 3px;
+    line-height: 27px;
+}
+
+.flip-card-back p{
+    font-size: 0.83rem;
+}
+
+.joining-cost{
+    font-size: 18px;
+    font-weight: bold;
+    color: gold;
+}
+  
 /* footer */
 
 .footer-sec{
