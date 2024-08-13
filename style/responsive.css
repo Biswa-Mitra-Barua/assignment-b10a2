@@ -138,6 +138,43 @@
         position: relative;
         bottom: 118px;
     }
+
+    .join-us{
+        background-color: black;
+        margin: 0 auto;
+        color: white;
+        padding: 30px 30px;
+        text-align: center;
+    }
+
+    .join-us>p{
+        font-size: 0.75rem;
+        margin-top: 11px;
+        margin-bottom: 60px;
+    } 
+
+    .join-us>p br{
+        display: none;
+    }
+
+    .membership-package{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 60px;
+        margin-right: 70px;
+        gap: 40px;
+    }
+
+    .visit-info p{
+        word-spacing: 0px;
+        margin-left: 0px;
+    }
+
+    .ellipsis{
+        width: 90%;
+    }
+
     .footer-sec{
         margin: 0 auto;
         padding: 40px 40px;
@@ -156,27 +193,5 @@
         margin-left: 10px;
     }
 
-    .join-us{
-        margin: 0 auto;
-        padding: 20px 40px;
-        text-align: center;
-    }
-
-    .join-us>p{
-        font-size: 0.75rem;
-        margin-top: 11px;
-        margin-bottom: 60px;
-    } 
-
-    .join-us>p br{
-        display: none;
-    }
-
-    .membership-package{
-        flex-direction: column;
-        margin-bottom: 60px;
-        margin-top: 60px;
-        gap: 40px;
-    }
-
+    
 }

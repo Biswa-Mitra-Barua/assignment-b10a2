@@ -420,6 +420,7 @@ h1 {
 .membership-package{
     display: flex;
     justify-content: space-around;
+    text-align: center;
     margin-bottom: 80px;
     margin-top: 80px;
 }
@@ -479,6 +480,26 @@ h1 {
     font-weight: bold;
     color: gold;
 }
+
+.visit-info{
+    margin-bottom: 50px;
+}
+
+.visit-info p{
+    font-size: 0.9rem;
+    color:rgb(145, 72, 20);
+    word-spacing: 1px;
+    margin-left: 130px;
+}
+
+.ellipsis{
+    width: 580px;
+    /* border: 2px solid red; */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
   
 /* footer */
 
