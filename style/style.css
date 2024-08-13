@@ -441,7 +441,6 @@ h1 {
     position: absolute;
     width: 220px;
     height: 220px;
-    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
 }
   
@@ -494,7 +493,6 @@ h1 {
 
 .ellipsis{
     width: 580px;
-    /* border: 2px solid red; */
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
